@@ -41,7 +41,7 @@ a:hover, a:focus {
 
 
 li{
-	list-style: none;
+    list-style: none;
 }
 .volver {
     float: left !important;
@@ -150,7 +150,7 @@ div.image-upload.par1 {
 
 }
 .box-chic{
-	max-width: 250px;
+    max-width: 250px;
     width: 100%;
     position: relative;
     height: 250px;
@@ -184,7 +184,7 @@ div.image-upload.par1 {
 }
 
 .box-gra{
-	width: 100%;
+    width: 100%;
     position: relative;
     height: 410px;
     object-fit: cover;
@@ -753,6 +753,7 @@ hr.page-contact {
 
 .logos-item {
   margin: 1rem;
+  max-width: 100px;
 }
 
 @media screen and (min-width: 768px) {
@@ -900,7 +901,7 @@ hr.page-contact {
 
 
 @media screen and (max-width: 700px){
-	.bot {
+    .bot {
     height: 53px;
 }
 
@@ -973,7 +974,7 @@ hr.page-contact {
 }
 
 @media (max-width: 400px){
-	.bot {
+    .bot {
     height: 80px;
 }
 
