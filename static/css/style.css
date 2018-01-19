@@ -28,11 +28,11 @@ a:link{
       color: black;
 }
 
-.carrousel-control.left{
+.carousel-control.left{
     background-image: none !important;
 }
 
-.carrousel-control.right{
+.carousel-control.right{
     background-image: none !important;
 }
 
