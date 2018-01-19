@@ -28,6 +28,14 @@ a:link{
       color: black;
 }
 
+.carrousel-control.left{
+    background-image: none !important;
+}
+
+.carrousel-control.right{
+    background-image: none !important;
+}
+
 a:focus {
     outline: thin dotted;
     outline: 0px auto -webkit-focus-ring-color;
