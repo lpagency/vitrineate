@@ -64,10 +64,17 @@
                     <ul class="no-dot">
                         <li class="ul-1 {{editabletext}}" text-id="{{ site.name + '_foot_20' }}"> {{ read_text(site.name +  '_foot_20') }}
                         </li>
-                         <div class="gun {{editabletext}}" text-id="{{ site.name + '_foot_21' }}"> {{ read_text(site.name +  '_foot_21') }}
-                        </div>
-                         <div class="gun {{editabletext}}" text-id="{{ site.name + '_foot_22' }}"> {{ read_text(site.name +  '_foot_22') }}
-                        </div>
+                        {% if is_admin %}
+                              <div class="image-upload visible-movil" style="left: 25px;top: 70px;">
+                                  <label for="img_foot_webpay">
+                                     <img class="change-image" src="https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png" onmouseover="this.src='https://7static.loadingplay.com/static/images/f2e626ad62e2c957b3708a27e55f4b03_btn-edit-hover.png';" onmouseout="this.src='https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png'">
+                                 </label>
+                                  <input type="file" class="editableimage" image-id="{{ site.name }}_img_foot_webpay" name="image" id="img_foot_webpay" >
+                              </div>
+                            {% end %}
+                            <div class="footer-logo-rrss">
+                              <img class="l-footer" id="{{ site.name }}_img_foot_webpay" src="{{ read_image(site.name + '_img_foot_webpay', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_img_foot_webpay',500) }}'" alt="item">
+                            </div>
                     </ul>
             </div>
             </div>
