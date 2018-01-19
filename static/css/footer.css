@@ -19,6 +19,20 @@
     top: 20px;
 }
 
+.footer-logo-rrss {
+    width: 170px;
+    background: transparent;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 0% 0%;
+    position: relative;
+    z-index: 200;
+    left: 0%;
+    bottom: 7px;
+    margin-top: 17px;
+    margin-right: 40px;
+}
+
 .ul-2{
     color:black;
     margin-top: 0px;
