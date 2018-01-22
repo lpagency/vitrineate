@@ -13,7 +13,7 @@ li.bolsa{
     color: black;
     font-weight: 400;
     padding-left: 6px;
-    top: 11px;
+    top: 22px;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
@@ -24,6 +24,10 @@ outline:none !important;
 outline: 5px auto -webkit-focus-ring-color;
 outline-offset: -2px;
 
+}
+
+.head-logo{
+    height: 50px;
 }
 
 .dropdown-menu {
@@ -88,9 +92,8 @@ outline-offset: -2px;
     -webkit-border-radius: 100px / 50px;
     border-radius: 0% 0%;
     position: relative;
-    z-index: 200;
     left: 0%;
-    bottom:7px;
+    bottom: 21px;
     margin-top: 2px;
     margin-right: 40px;
 }
