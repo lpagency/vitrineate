@@ -141,7 +141,12 @@
 
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li>BUSCAR<img class="img-lupa" src="{{ site_base }}/static/img/Vector_search_icon.svg.png">
+          <li class="buscador">
+            <div class="texto-b">BUSCAR</div>
+            <form id="searchform" class="form-search" role="search" action="{{ site_base }}/listado_productos" method="get" >
+              <input type="text" name="search_query" placeholder="Buscar" class="busca search" value="{% try %}{{search_query}}{% except %}{% end %}" style="display: none">
+            </form>
+            <img class="img-lupa" src="{{ site_base }}/static/img/Vector_search_icon.svg.png">
           </li>
         </ul>
       </div>

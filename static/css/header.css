@@ -9,9 +9,28 @@
 .img-lupa{
     width: 2%;
     position: relative;
-    top: 0px;
+    top: -24px;
     left: 40px;
     cursor: pointer;
+}
+
+.texto-b {
+    position: relative;
+    right: 60px;
+    width: 8%;
+    margin-right: 0px;
+    top: -4px;
+}
+
+input.busca.search {
+    width: 77%;
+}
+
+.form-search{
+    position: relative;
+    right: 129px;
+    width: 10%;
+    left: -61px;
 }
 
 li.bolsa{
