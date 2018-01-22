@@ -21,6 +21,97 @@ div.image-upload.part1 {
   opacity: 1;
 }
 
+.size-item.active{
+    color: white;
+    left: 0px;
+    position: relative;
+    float: left;
+    border-radius: 48px;
+    padding:15px 0px;
+    margin-bottom: 11px;
+    width:50px;
+    height: 50px;
+    margin-left: 9px;
+    font-size: 13px;
+    border-radius: 48px!important;
+    border: 2px solid rgba(91, 81, 83, 0.37);
+    background-color: rgba(91, 81, 83, 0.37);
+    font-weight: 600;
+}
+
+.size-item{
+    padding:15px 0px;
+    margin-bottom: 11px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    float: left;
+    left: 0px;
+    position: relative;
+    margin-left: 9px;
+    font-size: 13px;
+    border-radius: 48px!important;
+    border: 2px solid #282c3f;
+    font-weight: 600;
+}
+
+.size-item strike
+{
+    color: white;
+}
+
+.variant-value.active {
+    background-color: #000;
+}
+
+.variant-value.btn-disabled
+{
+    background: transparent;
+}
+
+.variant-value.active>div{
+    color: white;
+}
+
+.num-tal:hover{
+    color: white;
+}
+
+.mover{
+    position: relative;
+    right: 20px;
+}
+
+.num-tal{
+    color: #282c3f;
+    left: 16px;
+    position: relative;
+    float: left;
+    /* padding: 5px 8px; */
+    margin-bottom: 11px;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.size-item:hover {
+    color: white;
+    left: 0px;
+    position: relative;
+    float: left;
+    border-radius: 48px!important;
+    border: 2px solid rgba(91, 81, 83, 0.37);
+    padding: 15px 0px;
+    margin-bottom: 11px;
+    width: 50px;
+    height: 50px;
+    margin-left: 9px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #000;
+}
+
 .reli{
     font-size: 20px;
     margin-top: 67px;
@@ -330,6 +421,10 @@ hr.detalle {
     color: rgba(0, 0, 0, 0.66);
     width: 50%;
     margin-top: 72px;
+}
+
+.variants-container{
+    margin-bottom: 150px;
 }
 
 
