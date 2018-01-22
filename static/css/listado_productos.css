@@ -70,7 +70,7 @@ div.image-upload.part1 {
 }
 
 .variant-value.active>div{
-    color: white;
+    color: rgba(91, 81, 83, 0.37);
 }
 
 .num-tal:hover{
@@ -82,10 +82,13 @@ div.image-upload.part1 {
     right: 20px;
 }
 
-.num-tal{
+.num-tal {
     color: #282c3f;
-    left: 16px;
+    left: -2px;
+    padding-top: 17px;
+    padding-left: 17px;
     position: relative;
+    top: -17px;
     float: left;
     /* padding: 5px 8px; */
     margin-bottom: 11px;
