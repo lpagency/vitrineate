@@ -13,7 +13,7 @@ li.bolsa{
     color: black;
     font-weight: 400;
     padding-left: 6px;
-    top: 22px;
+    top: 18px;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
@@ -27,7 +27,7 @@ outline-offset: -2px;
 }
 
 .head-logo{
-    height: 50px;
+    height: 40px;
 }
 
 .dropdown-menu {
@@ -94,7 +94,7 @@ outline-offset: -2px;
     position: relative;
     left: 0%;
     bottom: 21px;
-    margin-top: 2px;
+    margin-top: 7px;
     margin-right: 40px;
 }
 
