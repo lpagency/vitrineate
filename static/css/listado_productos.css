@@ -80,6 +80,7 @@ div.image-upload.part1 {
 .mover{
     position: relative;
     right: 20px;
+    margin-bottom: 15px;
 }
 
 .num-tal {
