@@ -7,7 +7,7 @@
 }
 
 .img-lupa{
-    width: 2%;
+    width: 18%;
     position: relative;
     top: -24px;
     left: 40px;
@@ -28,7 +28,7 @@ input.busca.search {
 .form-search{
     position: relative;
     right: 129px;
-    width: 10%;
+    width: 69%;
     left: -61px;
 }
 
@@ -80,7 +80,7 @@ outline-offset: -2px;
 }
 
 .navbar-nav.navbar-right:last-child {
-    margin-right: -952px;
+    margin-right: -76px;
     top: 14px;
     position: relative;
 }

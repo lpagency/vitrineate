@@ -143,10 +143,16 @@
         <ul class="nav navbar-nav navbar-right">
           <li class="buscador">
             <div class="texto-b">BUSCAR</div>
-            <form id="searchform" class="form-search" role="search" action="{{ site_base }}/listado_productos" method="get" style="display: none">
+            <form id="searchform" class="form-search hidden" role="search" action="{{ site_base }}/listado_productos" method="get">
               <input type="text" name="search_query" placeholder="Buscar" class="busca search" value="{% try %}{{search_query}}{% except %}{% end %}">
             </form>
-            <img class="img-lupa" src="https://84static.loadingplay.com/static/images/26da0aabda796d26a439ac1cfa28ab43_Vector_search_iconclaro.png">
+            <img class="img-lupa" src="https://7static.loadingplay.com/static/images/1da6ee373afe0e65ad1b94c0d7cd9e9d_Vector_search_iconclaro.png">
+            <!-- <form role="search" method="get" id="searchform" action="{{ site_base }}/search_results">
+                            <label class="up" for="s">
+                                <i class="fa fa-search uno" aria-hidden="true"></i>
+                            </label>
+                            <input type="text" value="" name="search_query" placeholder="Buscar..." class="" id="s" />
+                    </form> -->
           </li>
         </ul>
       </div>
@@ -278,7 +284,7 @@
               </li>
               <li><form id="searchform" class="form-search" role="search" action="{{ site_base }}/listado_productos" method="get">
               <input type="text" name="search_query" placeholder="Buscar" class="busca search" value="{% try %}{{search_query}}{% except %}{% end %}">
-              <input class="img-lupa" type="image" src="https://84static.loadingplay.com/static/images/26da0aabda796d26a439ac1cfa28ab43_Vector_search_iconclaro.png" border="0" alt="Submit" />
+              <input class="img-lupa" type="image" src="https://7static.loadingplay.com/static/images/1da6ee373afe0e65ad1b94c0d7cd9e9d_Vector_search_iconclaro.png" border="0" alt="Submit" />
               </form>
             </li>
             </ul>
