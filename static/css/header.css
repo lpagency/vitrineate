@@ -364,6 +364,26 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
     margin-top: 2px;
 }
 
+.img-lupa {
+    width: 6%;
+    position: relative;
+    top: 4px;
+    left: 30px;
+    cursor: pointer;
+}
+
+input.busca.search {
+    width: 83%;
+    left: 14px;
+    position: relative;
+}
+
+.form-search{
+    right: inherit;
+    width: inherit;
+    left: inherit;
+}
+
 .logo {
     width: 132px;
     position: absolute;
