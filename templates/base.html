@@ -357,6 +357,17 @@
                 }
               },1);
             });
+
+            $(document).on("click", ".remove-from-cart", function()
+            {
+              setTimeout(function()
+              {
+                if($(".total-carro").val() > 0)
+                {
+                  $(".pagar-carro").attr("disabled", false);
+                }
+              },1);
+            });
         });
     </script>
 

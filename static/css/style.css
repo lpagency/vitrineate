@@ -655,6 +655,7 @@ hr.page-contact {
 
 .remove-from-cart.fri {
     padding-left: 27px;
+    cursor: pointer;
 }
 /*   ***[logos]***   */
 .logo-editable{
