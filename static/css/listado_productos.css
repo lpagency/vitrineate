@@ -69,8 +69,8 @@ div.image-upload.part1 {
     background: transparent;
 }
 
-.variant-value.active>div{
-    color: rgba(91, 81, 83, 0.37);
+.variant-value.active>div {
+    color: white;
 }
 
 .num-tal:hover{

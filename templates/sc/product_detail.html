@@ -143,6 +143,28 @@
 
                         console.log(p+" = "+d[p]);
                     }
+                    else{
+                      var l = p.split("-");
+                      var last = l[l.length-1];
+
+                      $("[value="+ last +"]").css("border","2px solid grey");
+                      $("[value="+ last +"]").attr("disabled", true);
+                      $("[value="+ last +"]").css("padding","15px 0px");
+                      $("[value="+ last +"]").css("margin-bottom","11px");
+                      $("[value="+ last +"]").css("width","50px");
+                      $("[value="+ last +"]").css("height","50px");
+                      $("[value="+ last +"]").css("float","left");
+                      $("[value="+ last +"]").css("left","0px");
+                      $("[value="+ last +"]").css("position","relative");
+                      $("[value="+ last +"]").css("margin-left","9px");
+                      $("[value="+ last +"]").css("font-size","13px");
+                      $("[value="+ last +"]").css("border-radius","48px");
+                      $("[value="+ last +"]").css("font-weight","600");
+
+                      $("[value="+ last +"]").children(".num-tal").css("color","grey");
+                      $("[value="+ last +"]").removeClass("size-item");
+                      console.log(p+" = "+d[p]);
+                    }
                 }
             });
 
