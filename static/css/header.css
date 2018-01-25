@@ -21,15 +21,11 @@
     margin-right: 0px;
 }
 
-input.busca.search {
-    width: 77%;
-}
-
 .form-search{
     position: relative;
     right: 129px;
-    width: 69%;
-    left: -61px;
+    width: 100%;
+    left: -139px;
 }
 
 li.bolsa{
