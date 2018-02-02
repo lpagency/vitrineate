@@ -563,6 +563,10 @@ hr.detalle {
     left: 0px;
 }
 
+.img-pro{
+    object-fit: contain;
+}
+
 .overlay{
     height: 88%;
 }
