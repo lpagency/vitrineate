@@ -962,6 +962,10 @@ hr.page-contact {
     border-radius: 180px;
 }
 
+.box-gra{
+    object-fit: contain;
+}
+
 }
 
 
