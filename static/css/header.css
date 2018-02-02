@@ -504,6 +504,7 @@ input.busca.search {
     z-index: 200;
     left: 0%;
     margin-right: 0;
+    top: -5px;
 }
 .logo {
     width: 150px;
