@@ -145,7 +145,7 @@
 
     <a id="{{ site.name + '_met_banner_3' }}" href="{{ read_link(site.name + '_met_banner_3') }}" target="_blank">
       <div  class="mov item" style="background:url('{{ read_image(site.name + '_img_slider_4') }}'); height:100%; width:100%; background-repeat:no-repeat; background-size:cover; background-position:center; " data-img-width="1600" data-img-height="890" data-diff="100">
-    </a>
+    
          {% if is_admin %}
             <div class="image-upload visible-movil" style="top:80px;">
                <label for="img_slider_4">
@@ -156,6 +156,7 @@
                 <img class= "change-image editablelink" link-id="{{ site.name + '_met_banner_3' }}" content="{{ read_link(site.name + '_met_banner_3') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';" style="left: 900px;">
            {% end %}
         </div>
+        </a>
     </div>
     <!-- Left and right controls -->
    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
