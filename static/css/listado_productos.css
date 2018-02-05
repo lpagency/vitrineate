@@ -515,6 +515,10 @@ hr.detalle {
 }
 
 @media (max-width: 436px){
+    .fufi{
+    height: 375px;
+    margin-bottom: 40px;
+}
 
     .titulo-prou {
     position: absolute;
@@ -527,27 +531,26 @@ hr.detalle {
     font-weight: 400;
 }
 .inf{
-    position: absolute;
-    bottom: 0px;
-    width: 97%;
+    position: relative;
+    width: 100%;
     text-align: center;
-    left: 10px;
-    color: white;
+    left: 0px;
+    color: #262626;
     font-size: 17px;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    bottom: 15px;
 }
 .product-price-3 {
     position: relative;
-    bottom: 20px;
-        top: inherit;
+    bottom: 40px;
+    top: inherit;
     font-size: 15px;
-    color: black;
+    color: #262626;
     text-align: center;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
-}
 
 }
 
@@ -563,9 +566,7 @@ hr.detalle {
     left: 0px;
 }
 
-.img-pro{
-    object-fit: contain;
-}
+
 
 .overlay{
     height: 88%;
@@ -620,23 +621,27 @@ hr.detalle {
     width: 80%;
     margin-top: 96px;
 }
-
+.fufi{
+    height: 375px;
+    margin-bottom: 40px;
+}
 .inf{
-    position: absolute;
-    bottom: 0px;
-    width: 97%;
+    position: relative;
+    width: 100%;
     text-align: center;
-    left: 10px;
-    color: white;
+    left: 0px;
+    color: #262626;
     font-size: 17px;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    bottom: 20px;
 }
 .product-price-3 {
     position: relative;
-    bottom: 20px;
+    bottom: 45px;
+    top: inherit;
     font-size: 15px;
-    color: black;
+    color: #262626;
     text-align: center;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
