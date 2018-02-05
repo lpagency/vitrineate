@@ -255,7 +255,11 @@ img#vitrineate_img_logo_footer {
     position: relative;
     text-align: center;
 }
-
+.webpay {
+    position: relative;
+    max-width: 150px;
+    right: 0px;
+}
 
 }
 
