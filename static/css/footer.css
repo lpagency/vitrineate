@@ -20,7 +20,9 @@
 }
 
 .webpay{
+    position: relative;
     max-width: 150px;
+    right: 45px;
 }
 
 .footer-logo-rrss {
