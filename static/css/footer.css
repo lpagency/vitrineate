@@ -330,8 +330,10 @@ img#vitrineate_img_logo_footer {
 }
 
 .l-footer{
-    left: -4px;
-    margin-top: -64px;
+    left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 }
