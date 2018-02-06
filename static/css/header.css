@@ -88,6 +88,7 @@ outline-offset: -2px;
 
 .head-menu{
     border-top: 1px solid !important;
+    border-bottom: 1px solid !important;
     left: -16px !important;
     position: relative !important;
 }

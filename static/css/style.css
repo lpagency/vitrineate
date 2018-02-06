@@ -27,7 +27,12 @@ a:visited{
 a:link{
       color: black;
 }
-
+.link-banner{
+    position: absolute;
+    width: 80%;
+    height:100%;
+    left: 120px;
+}
 .carousel-control.left{
     background-image: none !important;
 }
@@ -35,7 +40,9 @@ a:link{
 .carousel-control.right{
     background-image: none !important;
 }
-
+.ocultar-texto{
+    overflow: hidden
+}
 a:focus {
     outline: thin dotted;
     outline: 0px auto -webkit-focus-ring-color;
