@@ -110,34 +110,31 @@
                    <img class="change-image" src="https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png" onmouseover="this.src='https://7static.loadingplay.com/static/images/f2e626ad62e2c957b3708a27e55f4b03_btn-edit-hover.png';" onmouseout="this.src='https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png'">
                </label>
                <input type="file" class="editableimage" image-id="{{ site.name }}_img_slider_1" name="image" id="img_slider_1" >
-
            </div>
-      </a>
-             <img class="change-image editablelink" link-id="{{ site.name + '_img_slider_1' }}" content="{{ read_link(site.name + '_img_slider_1') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
-                
-                 
-           {% end %}
-         
-       <!--  <img class="img_banner" id="{{ site.name }}_img_slider_1" src="{{ read_image(site.name + '_img_slider_1', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_img_slider_1',500) }}'" alt="item" style=" "> -->
-<!--         <img src="{{ read_image(site.name + '_slide1', 500) }}" alt="Slider 1" longdesc="{{ read_image(site.name + '_slide1', 500) }}" /> -->     
+        </a>
+          <img class="change-image editablelink" link-id="{{ site.name + '_img_slider_1' }}" content="{{ read_link(site.name + '_img_slider_1') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
+          {% end %}
       </div>
     
 
 
-  <!-- **otro** -->
+  <!-- ** SLIDER 2 ** -->
       <div class="mov item " style="background:url('{{ read_image(site.name + '_img_slider_2') }}'); height:100%; width:100%; background-repeat:no-repeat; background-size:cover; background-position:center;" data-img-width="1600" data-img-height="890" data-diff="100">
-             {% if is_admin %}
+        <a class="link-banner" id="{{ site.name + '_img_slider_2' }}" href="{{ read_link(site.name + '_img_slider_2') }}">
+          {% if is_admin %}
             <div class="image-upload visible-movil" style="top:80px;">
                <label for="img_slider_2">
                    <img class="change-image" src="https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png" onmouseover="this.src='https://7static.loadingplay.com/static/images/f2e626ad62e2c957b3708a27e55f4b03_btn-edit-hover.png';" onmouseout="this.src='https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png'">
                </label>
                <input type="file" class="editableimage" image-id="{{ site.name }}_img_slider_2" name="image" id="img_slider_2" >
-           </div>
-          
+            </div>
+        </a>
+        <img class="change-image editablelink" link-id="{{ site.name + '_img_slider_2' }}" content="{{ read_link(site.name + '_img_slider_2') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
            {% end %}
       </div>
-    
+      <!-- ** SLIDER 3** -->
       <div class="mov item " style="background:url('{{ read_image(site.name + '_img_slider_3') }}'); height:100%; width:100%; background-repeat:no-repeat; background-size:cover; background-position:center; " data-img-width="1600" data-img-height="890" data-diff="100">
+        <a class="link-banner" id="{{ site.name + '_img_slider_3' }}" href="{{ read_link(site.name + '_img_slider_3') }}">
          {% if is_admin %}
             <div class="image-upload visible-movil" style="top:80px;">
                <label for="img_slider_3">
@@ -145,21 +142,24 @@
                </label>
                <input type="file" class="editableimage" image-id="{{ site.name }}_img_slider_3" name="image" id="img_slider_3" >
            </div>
-        
+         </a>
+         <img class="change-image editablelink" link-id="{{ site.name + '_img_slider_3' }}" content="{{ read_link(site.name + '_img_slider_3') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
            {% end %}
       </div>
-
+  <!-- ** SLIDER 4 ** -->
       <div  class="mov item" style="background:url('{{ read_image(site.name + '_img_slider_4') }}'); height:100%; width:100%; background-repeat:no-repeat; background-size:cover; background-position:center; " data-img-width="1600" data-img-height="890" data-diff="100">
-         {% if is_admin %}
+        <a class="link-banner" id="{{ site.name + '_img_slider_4' }}" href="{{ read_link(site.name + '_img_slider_4') }}"> 
+          {% if is_admin %}
             <div class="image-upload visible-movil" style="top:80px;">
                <label for="img_slider_4">
                    <img class="change-image" src="https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png" onmouseover="this.src='https://7static.loadingplay.com/static/images/f2e626ad62e2c957b3708a27e55f4b03_btn-edit-hover.png';" onmouseout="this.src='https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png'">
                </label>
                <input type="file" class="editableimage" image-id="{{ site.name }}_img_slider_4" name="image" id="img_slider_4" >
            </div>
-           
-           {% end %}
-        </div>
+        </a>
+         <img class="change-image editablelink" link-id="{{ site.name + '_img_slider_4' }}" content="{{ read_link(site.name + '_img_slider_4') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
+          {% end %}
+      </div>
     </div>
     <!-- Left and right controls -->
    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
