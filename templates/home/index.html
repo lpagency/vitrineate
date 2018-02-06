@@ -111,7 +111,9 @@
                </label>
                <input type="file" class="editableimage" image-id="{{ site.name }}_img_slider_1" name="image" id="img_slider_1" >
            </div>
+           {% end %}
         </a>
+        {% if is_admin %}
           <img class="change-image editablelink" link-id="{{ site.name + '_img_slider_1' }}" content="{{ read_link(site.name + '_img_slider_1') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
           {% end %}
       </div>
@@ -128,8 +130,10 @@
                </label>
                <input type="file" class="editableimage" image-id="{{ site.name }}_img_slider_2" name="image" id="img_slider_2" >
             </div>
+            {% end %}
         </a>
-        <img class="change-image editablelink" link-id="{{ site.name + '_img_slider_2' }}" content="{{ read_link(site.name + '_img_slider_2') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
+            {% if is_admin %}
+              <img class="change-image editablelink" link-id="{{ site.name + '_img_slider_2' }}" content="{{ read_link(site.name + '_img_slider_2') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
            {% end %}
       </div>
       <!-- ** SLIDER 3** -->
@@ -142,7 +146,9 @@
                </label>
                <input type="file" class="editableimage" image-id="{{ site.name }}_img_slider_3" name="image" id="img_slider_3" >
            </div>
+           {% end %}
          </a>
+         {% if is_admin %}
          <img class="change-image editablelink" link-id="{{ site.name + '_img_slider_3' }}" content="{{ read_link(site.name + '_img_slider_3') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
            {% end %}
       </div>
@@ -156,7 +162,9 @@
                </label>
                <input type="file" class="editableimage" image-id="{{ site.name }}_img_slider_4" name="image" id="img_slider_4" >
            </div>
+           {% end %}
         </a>
+         {% if is_admin %}
          <img class="change-image editablelink" link-id="{{ site.name + '_img_slider_4' }}" content="{{ read_link(site.name + '_img_slider_4') }}" src="{{ site_base }}/static/img/link.png" onmouseover="this.src='{{ site_base }}/static/img/link.png';" onmouseout="this.src='{{ site_base }}/static/img/link.png';">
           {% end %}
       </div>
