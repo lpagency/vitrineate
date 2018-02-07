@@ -71,13 +71,16 @@ $(document).ready(function()
         var site_name = $.environmentVar('vitrineate', 'vitrineate', 'vitrineate');
 
     var config = {
+
+
+
         'app_public': app_public,
         'base_url': base_url,
-        'products_per_page' : 9, 
+        'products_per_page' : 8, 
         'tag': tag,
         'ignore_stock': false,
-        'infinite_scroll': true,
-        'maxProducts': 150,
+        'infinite_scroll': false,
+        //'maxProducts': 150,
         'checkout_url': checkout_url, 
         'operator' :'or',
         'site_name': site_name,

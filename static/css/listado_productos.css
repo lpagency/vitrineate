@@ -172,7 +172,7 @@ div.image-upload.part1 {
     text-align: center;
     left: 0%;
     color: black;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     margin-bottom: 35px;
     -webkit-font-smoothing: antialiased;
@@ -338,7 +338,7 @@ hr.len {
 
 .text {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -352,7 +352,7 @@ hr.len {
 .text:hover {
     background-color: rgba(128, 128, 128, 0.8);
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px 32px;
     border: 2px solid white;
     -webkit-transition: all 0.5s ease;
