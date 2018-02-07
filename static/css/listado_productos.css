@@ -589,7 +589,31 @@ hr.detalle {
     width: 150px;
     margin: auto;
 }
-
+.text {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.text:hover {
+    background-color: rgba(128, 128, 128, 0.8);
+    color: white;
+    font-size: 10px;
+    padding: 8px 20px;
+    border: 2px solid white;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+}
 @media (max-width: 436px){
     
     .fufi{
