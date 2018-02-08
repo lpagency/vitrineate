@@ -1066,6 +1066,12 @@ hr.page-contact {
     object-fit: cover;
     border-radius: 180px;
 }
-
+.modal-body {
+    position: relative;
+    padding: 15px 0;
+}
+.modal-content {
+    font-size: 10px;
+}
 
 }
