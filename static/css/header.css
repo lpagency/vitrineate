@@ -498,6 +498,15 @@ input.busca.search {
 
 }
 
+@media (max-width: 456px){
+    .modal-content {
+        font-size: 11px;
+    }
+    .modal-body {
+        position: relative;
+        padding: 15px 0;
+    }
+}
 @media (max-width: 414px){
   .base-logo {
     width: 200px;
@@ -528,7 +537,6 @@ input.busca.search {
     cursor: pointer;
     float: right;
 }
-
 }
 
 @media (max-width: 400px){
