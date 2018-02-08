@@ -960,6 +960,15 @@ hr.page-contact {
     margin-bottom: -25px !important;
     }
 }
+@media (max-width: 456px){
+    .modal-content {
+        font-size: 11px;
+    }
+    .modal-body {
+        position: relative;
+        padding: 15px 0;
+    }
+}
 
 @media (max-width: 436px){
     .bot {
