@@ -21,10 +21,10 @@ $(document).ready(function()
         var config = {
             'app_public': app_public,
             'base_url': base_url,
-            'maxProducts': 8,
+            //'maxProducts': 8,
             'templateOrigin': '#product_template',
             'tag': tag,
-            'ignore_stock': false
+            'ignore_stock': true
         };
 
         $('.product-related').ecommerce('product_box', config);
