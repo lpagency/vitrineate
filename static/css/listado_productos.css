@@ -746,7 +746,43 @@ hr.detalle {
         height: 260px;
         top: -670px;
     }
-
+    
+    .descr_prod_detail {
+        font-size: 12px;
+        width: 100%;
+        text-align: left;
+        height: auto;
+        top: 30px;
+        margin-bottom: 13%;
+    }
+    .image_little {
+        top: 30px;
+        left: 0px;
+    }
+    .img_prod_little {
+        top: 0px;
+        left: 0px;
+        padding: 0px;
+    }
+    .main-img-container {
+        position: relative;
+        top: 0px;
+    }
+        #mainImage {
+        width: 100%;
+        height: 200px;
+        object-fit: scale-down;
+        top: 0;
+        margin-top: 15px;
+        right: 7px;
+        position: relative;
+        -webkit-transition: all 0.5s linear;
+        transition: all 0.5s linear;
+    }
+    .img-ppal-movil{
+        position: relative;
+        top: 35px;
+    }
 }
 
 
