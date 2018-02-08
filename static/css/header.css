@@ -344,11 +344,48 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
 /*---------------------Responsive------------------------*/
 @media (max-width: 1199px){
     .navbar-nav.navbar-right:last-child {
-    margin-right: -27px;
+        left: 0px;
+    }
+    li.bolsa {
+    float: right;
+    left: 9%;
+    position: relative;
+    color: black;
+    font-weight: 400;
+    padding-left: 6px;
+    top: 18px;
+    }
+    .head-menu {
+    width: 102.7%;
+    border-top: 1px solid !important;
+    border-bottom: 1px solid !important;
+    left: -15px !important;
+    position: relative !important;
 }
-
 }
+@media (max-width: 991px){
+   .container {
+    width: 980px;
+}
+.form-search {
+    float: right;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 120px;
+}
+}
+   .bolsa-movil{
 
+    float: right;
+    position: absolute;
+    right: 0;
+   }
+    .navbar-left {
+    top: 10px;
+    right: 30px;
+    }   
+}
 @media (max-width: 767px){
     .base-logo {
     width: 293px;
