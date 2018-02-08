@@ -5,7 +5,9 @@
     top: -5px;
     cursor: pointer;
 }
-
+.navbar-default {
+    background-color: #fff;
+}
 .img-lupa{
     width: 18%;
     position: relative;
@@ -517,7 +519,18 @@ input.busca.search {
     object-fit: scale-down;
     margin-top: 15px;
 }
+.carousel-inner {
+    height: 100px;
+    top: 29px;
+}
 
+#slider-home {
+    top: 10px;
+}
+
+.texto-one {
+    margin-top: 0px;
+}
 
 
 }
