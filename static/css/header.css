@@ -364,26 +364,38 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
 }
 }
 @media (max-width: 991px){
-   .container {
-    width: 980px;
-}
-.form-search {
-    float: right;
-    position: absolute;
-    right: 0;
-    left: 0;
-    width: 120px;
-}
-
+    .container {
+        width: 980px;
+    }
+    .form-search {
+        float: right;
+        position: absolute;
+        right: 0;
+        left: 0;
+        width: 120px;
+    }
+    .base-logo {
+        width: 130px;
+        height: 65px;
+        background: transparent;
+        -moz-border-radius: 100px / 50px;
+        -webkit-border-radius: 100px / 50px;
+        border-radius: 0% 0%;
+        position: relative;
+        left: -4%;
+        bottom: 0px;
+        margin-top: 7px;
+        margin-right: 40px;
+    }
    .bolsa-movil{
 
-    float: right;
-    position: absolute;
-    right: 0;
+        float: right;
+        position: absolute;
+        right: 0;
    }
     .navbar-left {
-    top: 10px;
-    right: 30px;
+        top: 0px;
+        right: 37px;
     }   
 }
 @media (max-width: 767px){
