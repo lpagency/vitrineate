@@ -22,7 +22,7 @@
 .webpay{
     position: relative;
     max-width: 150px;
-    right: 45px;
+    right: 0px;
 }
 
 .footer-logo-rrss {
@@ -225,7 +225,20 @@ img#vitrineate_img_logo_footer {
     left: 0px;
     width: 100%;
 }
-
+.ul-2 {
+    left: 0px;
+}
+.a-footer {
+    position: relative;
+    left: 125px;
+    top: 77px;
+    font-size: 12px;
+    color: black;
+}
+.logo-footer-movil {
+    position: relative;
+    left: 62%;
+}
 }
 
 
