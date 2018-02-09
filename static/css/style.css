@@ -855,6 +855,12 @@ hr.page-contact {
     height: 320px;
     margin-top: 70px;
 }
+
+.banner-movil{
+    height: 208px;
+    margin-top: 51px;
+}
+
 }
 
 @media (max-width: 800px){
@@ -867,6 +873,10 @@ hr.page-contact {
 @media (max-width: 767px){
     .pad0 {
     padding: 6px 6px;
+}
+.carousel-inner {
+    height: 270px;
+    margin-top: 70px;
 }
 
 .box-gra-peq {
