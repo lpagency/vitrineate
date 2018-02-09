@@ -812,13 +812,23 @@ hr.page-contact {
     .container.min{
      width: 100%;
     }
+
 }
 @media (max-width: 1039px){
 
    .bot {
     top: -24px;
 }
+.carousel-inner {
+    height: 370px;
+}
+}
 
+@media (max-width: 1024px){
+
+.carousel-inner {
+    height: 370px;
+}
 }
 
 @media (max-width: 991px){
@@ -841,7 +851,17 @@ hr.page-contact {
     right: 120px;
     top: 10px;
 }
+.carousel-inner {
+    height: 320px;
+    margin-top: 70px;
+}
+}
 
+@media (max-width: 800px){
+    .carousel-inner {
+    height: 320px;
+    margin-top: 70px;
+}
 }
 
 @media (max-width: 767px){
