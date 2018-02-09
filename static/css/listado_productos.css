@@ -413,7 +413,9 @@ hr.detalle {
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
 }
-
+.product-detail{
+    margin-top: 50px;
+}
 /*----------------------------------------------------Responsive----------------------------------------------*/
 
 
@@ -429,7 +431,9 @@ hr.detalle {
     width: 50%;
     margin-top: 72px;
 }
-
+.product-detail{
+    margin-top: 70px;
+}
 .variants-container{
     margin-bottom: 150px;
 }
@@ -543,6 +547,10 @@ hr.detalle {
 
 
 @media (max-width: 575px){
+
+.product-detail{
+    margin-top: 0px;
+}
     .titulo-prou {
     position: absolute;
     text-align: center;

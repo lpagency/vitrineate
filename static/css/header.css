@@ -419,6 +419,16 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
         margin-right: 40px;
         
     }
+    .dropdown-menu{
+        position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    }
 
 .form-search {
     position: relative;
