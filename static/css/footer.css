@@ -118,6 +118,20 @@ img#vitrineate_img_logo_footer {
 .gun{
     color:black;
 }
+.base-logo-footer{
+    width: 170px;
+    height: 97px;
+    background: transparent;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 0% 0%;
+    position: relative;
+    left: -4%;
+    bottom: 21px;
+    margin-top: 7px;
+    margin-right: 40px;
+}
+}
 
 /*----------------Responsive---------------------*/
 
@@ -187,7 +201,19 @@ img#vitrineate_img_logo_footer {
     position: relative;
     text-align: center;
 }
+.base-logo-footer{
 
+    width: 130px;
+    height: 54px;
+    background: transparent;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 0% 0%;
+    position: relative;
+    z-index: 200;
+    left: 125px;
+    margin-top: 2px;
+}
 .inform-comerc{
     text-align: center;
 }
