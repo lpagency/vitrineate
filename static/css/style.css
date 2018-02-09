@@ -865,8 +865,12 @@ hr.page-contact {
 
 @media (max-width: 800px){
     .carousel-inner {
-    height: 320px;
+    height: 270px;
     margin-top: 70px;
+}
+.d-o{
+    left: 50px;
+
 }
 }
 
