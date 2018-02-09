@@ -419,6 +419,21 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
         margin-right: 40px;
         
     }
+
+.form-search {
+    position: relative;
+    right: 0px;
+    width: 90%;
+    left: 14px;
+}
+.img-lupa {
+    width: 4%;
+    position: relative;
+    top: 0;
+    left: 40px;
+    cursor: pointer;
+    float: right;
+}
 }
 @media (max-width: 767px){
     .base-logo {
@@ -434,14 +449,6 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
     margin-top: 2px;
 }
 
-.img-lupa {
-    width: 6%;
-    position: relative;
-    top: 4px;
-    left: 30px;
-    cursor: pointer;
-}
-
 input.busca.search {
     width: 83%;
     left: 14px;
@@ -450,7 +457,7 @@ input.busca.search {
 
 .form-search{
     right: inherit;
-    width: inherit;
+    width: 90%;
     left: inherit;
 }
 
@@ -496,6 +503,14 @@ input.busca.search {
     max-height: 650px;
 }
 
+.img-lupa {
+    width: 4%;
+    position: relative;
+    top: 0;
+    left: 40px;
+    cursor: pointer;
+    float: right;
+}
 }
 
 
@@ -526,6 +541,14 @@ input.busca.search {
     position: relative;
     left: -13px;
     top: 13px;
+    cursor: pointer;
+    float: right;
+}
+.img-lupa {
+    width: 9%;
+    position: relative;
+    top: 0;
+    left: 28px;
     cursor: pointer;
     float: right;
 }

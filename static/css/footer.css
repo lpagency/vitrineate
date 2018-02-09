@@ -157,9 +157,9 @@ img#vitrineate_img_logo_footer {
 
 @media (max-width: 838px){
 .d-o {
-    left: 85px;
-    position: relative;
-    width: 108%;
+    left:0px;
+    position:relative;
+    width: 100%;
 }
 
 .caja-fo {
