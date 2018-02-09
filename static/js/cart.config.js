@@ -113,7 +113,7 @@ $(document).ready(function()
         // console.log(config);
         
         // facade.page = 1; // o 1 no estoy seguro
-        $(".products").html("");
+        $('.products').html("");
         $(document).ecommerce('destroy');
         $(document).ecommerce(config);
 
