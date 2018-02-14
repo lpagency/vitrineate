@@ -85,18 +85,17 @@ div.image-upload.part1 {
 
 .num-tal {
     color: #282c3f;
-    left: 17px;
+    left: 0;
+    width: 100%;
     padding-top: 16px;
     position: relative;
     bottom: 17px;
-    float: left;
-    float: left;
-    /* padding: 5px 8px; */
     margin-bottom: 11px;
     width: 50px;
     height: 50px;
     font-size: 13px;
     font-weight: 600;
+    text-align: center;
 }
 
 .size-item:hover {
