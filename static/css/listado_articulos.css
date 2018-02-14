@@ -215,11 +215,12 @@
     position: absolute;
     bottom: 0px;
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin-bottom: 89px;
     color: white;
     font-weight: 400;
     font-size: 30px;
+    left: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
