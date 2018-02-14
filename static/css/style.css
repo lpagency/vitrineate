@@ -832,6 +832,29 @@ hr.page-contact {
 }
 
 @media (max-width: 991px){
+    .box-gra-peq {
+    width: 100%;
+    position: relative;
+    height: 133px;
+    object-fit: cover;
+    filter: grayscale(0%) brightness(905%);
+    -webkit-filter: grayscale(0%) brightness(90%);
+    -moz-filter: grayscale(0%) brightness(90%);
+    -ms-filter: grayscale(0%) brightness(90%);
+    -o-filter: grayscale(0%) brightness(90%);
+    margin-bottom: 10px;
+}
+.box-gra {
+    width: 100%;
+    position: relative;
+    height: 276px;
+    object-fit: cover;
+    filter: grayscale(0%) brightness(90%);
+    -webkit-filter: grayscale(0%) brightness(90%);
+    -moz-filter: grayscale(0%) brightness(90%);
+    -ms-filter: grayscale(0%) brightness(90%);
+    -o-filter: grayscale(0%) brightness(90%);
+}
 
 .align-form-contact {
     padding-left: 0px;
