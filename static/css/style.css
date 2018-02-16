@@ -903,8 +903,8 @@ hr.page-contact {
 }
 
 .banner-movil{
-    height: 208px;
-    margin-top: 51px;
+    height: 208px !important;
+    margin-top: 51px !important;
 }
 
 }
@@ -921,6 +921,10 @@ hr.page-contact {
 }
 
 @media (max-width: 767px){
+    .banner-movil{
+    height: 203px !important;
+    margin-top: 50px !important;
+}
     .pad0 {
     padding: 6px 6px;
 }
