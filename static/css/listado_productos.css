@@ -416,8 +416,18 @@ hr.detalle {
     margin-top: 50px;
 }
 /*----------------------------------------------------Responsive----------------------------------------------*/
-
-
+@media (max-width: 1024px){
+    #mainImage {
+        width: 100%;
+        height: 500px;
+        object-fit: scale-down;
+        top: 0px;
+        right: 27px;
+        position: relative;
+        -webkit-transition: all 0.5s linear;
+        transition: all 0.5s linear;
+    }
+}
 @media (max-width: 991px){
 
 .fin {
