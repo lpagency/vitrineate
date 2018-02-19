@@ -515,6 +515,10 @@ hr.detalle {
 
 
 @media (max-width: 767px){
+
+    .img-ppal-movil {
+        margin-left: inherit;
+    }
 .img_prod_little {
     width: 16%;
     height: 88px;
@@ -821,6 +825,25 @@ hr.detalle {
     .img-ppal-movil{
         position: relative;
         top: 35px;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    .img-ppal-movil {
+        position: relative;
+        top: 53px;
+    }
+
+    .descr_prod_detail{
+        font-size: 13px;
+    }
+
+    .title-stock{
+        font-size: 11px;
+    }
+
+    .stock-product{
+        font-size: 11px;
     }
 }
 
