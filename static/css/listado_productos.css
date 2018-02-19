@@ -21,6 +21,10 @@ div.image-upload.part1 {
   opacity: 1;
 }
 
+.stock-product{
+    margin-bottom: 30px;
+}
+
 .size-item.active{
     color: white;
     left: 0px;

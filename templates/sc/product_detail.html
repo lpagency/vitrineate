@@ -66,6 +66,7 @@
             },
             onLoad: function(product)
             {
+
               if(product.in_stock == false)
                 {
                     $(".add-to-cart").html("AGOTADO");
@@ -140,6 +141,7 @@
             {
                 for (var p in d)
                 {
+                    $(".stock-product").html($(".stock-product").html() + "Stock de " + p + " : " +d[p] + "<br>");
                     if(d[p] !== 0)
                     {
                         var l = p.split("-");
@@ -149,6 +151,7 @@
                         $("[value="+ last +"]").children("span").remove();
 
                         console.log(p+" = "+d[p]);
+                        //$(".stock-product").html("stock: "+d[p]);
                     }
                     else{
                       var l = p.split("-");
@@ -284,6 +287,7 @@
               <h3 class="descr_prod_detail ellipsis multiline"> 
              {{! description }}</h3>
               <div class="product-price-2">{{! main_price|money }} </div>
+              <div class="stock-product"></div>
               <div class="col-md-12 mover variants-container">
               </div>
              <button 
