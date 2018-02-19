@@ -66,6 +66,7 @@
             },
             onLoad: function(product)
             {
+
               if(product.in_stock == false)
                 {
                     $(".add-to-cart").html("AGOTADO");
@@ -140,6 +141,18 @@
             {
                 for (var p in d)
                 {
+                    var stock;
+
+                    if(d[p] == 0)
+                    {
+                      stock = "<b>AGOTADO</b>";
+                    }
+                    else
+                    {
+                      stock = d[p].toString() + " Unidades";
+                    }
+
+                    $(".stock-product").html($(".stock-product").html() + p + " : " + stock + "<br>");
                     if(d[p] !== 0)
                     {
                         var l = p.split("-");
@@ -149,6 +162,7 @@
                         $("[value="+ last +"]").children("span").remove();
 
                         console.log(p+" = "+d[p]);
+                        //$(".stock-product").html("stock: "+d[p]);
                     }
                     else{
                       var l = p.split("-");
@@ -170,6 +184,7 @@
 
                       $("[value="+ last +"]").children(".num-tal").css("color","#a7a7a7");
                       $("[value="+ last +"]").removeClass("size-item");
+                      $(".add-to-cart").attr("disabled", true);
                       console.log(p+" = "+d[p]);
                     }
                 }
@@ -240,7 +255,8 @@
 <section>
 
       <div class="container min">
-           <div class="col-xs-12 col-md-8 col-sm-8 image_little">
+        <div class="row">
+           <div class="offset-md-1  offset-sm-1 col-xs-12 col-md-6 col-sm-6 image_little">
                      
                         <div class="img-container">  
                             <img class="{{! images[1]['thumb_500']|hide_if_empty}} col-xs-3 img_prod_little" src="{{! images[1]['thumb_500'] }}" onload="this.onload='';this.src={{! images[1]['thumb_500']}}" />
@@ -266,7 +282,7 @@
                          </div>
                   
           </div>
-          
+        </div>  
                 <div align="center">
             <div class="col-md-6 col-sm-6 col-xs-12 img-ppal-movil">
                   <div id="mainDiv">
@@ -279,10 +295,12 @@
 
 
 
-          <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="col-md-5 col-sm-5 col-xs-12 text-prod-desk">
              <h1 class="name name_prod_detail ellipsis multiline" class="line" href="#">{{! name }}</h1>
               <h3 class="descr_prod_detail ellipsis multiline"> 
              {{! description }}</h3>
+              <div class="title-stock">Stock por producto SKU:</div>
+             <div class="stock-product"></div>
               <div class="product-price-2">{{! main_price|money }} </div>
               <div class="col-md-12 mover variants-container">
               </div>
