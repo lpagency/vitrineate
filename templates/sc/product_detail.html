@@ -141,7 +141,18 @@
             {
                 for (var p in d)
                 {
-                    $(".stock-product").html($(".stock-product").html() + p + " : " +d[p] + " Unidades <br>");
+                    var stock;
+
+                    if(d[p] == 0)
+                    {
+                      stock = "<b>AGOTADO</b>";
+                    }
+                    else
+                    {
+                      stock = d[p].toString() + " Unidades";
+                    }
+
+                    $(".stock-product").html($(".stock-product").html() + p + " : " + stock + "<br>");
                     if(d[p] !== 0)
                     {
                         var l = p.split("-");
