@@ -437,6 +437,11 @@ hr.detalle {
         -webkit-transition: all 0.5s linear;
         transition: all 0.5s linear;
     }
+
+    .mobile-search{
+        border: solid 1px #757575;
+        width: 95%;
+    }
 }
 @media (max-width: 991px){
 
