@@ -439,6 +439,19 @@ hr.detalle {
 }
 @media (max-width: 991px){
 
+.image_little{
+    margin-bottom: -30px;
+    left: 19px;
+}
+
+.img-ppal-movil{
+    margin-left: 30px;
+}
+
+.text-prod-desk{
+    margin-top: 80px;
+}
+
 .fin {
     position: relative;
     top: -134px;
