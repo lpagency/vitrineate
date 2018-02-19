@@ -72,6 +72,8 @@ $(document).ready(function()
         var app_public = $.environmentVar(69,69,69);
         var site_name = $.environmentVar('vitrineate', 'vitrineate', 'vitrineate');
 
+    var random_seed = 'random('+ Math.random() +')';
+
     var config = {
 
 
@@ -86,6 +88,7 @@ $(document).ready(function()
         'checkout_url': checkout_url, 
         'operator' :'or',
         'site_name': site_name,
+        'column': random_seed,
         'onLoad': function(products) 
         {
             banners(tag);

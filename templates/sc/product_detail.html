@@ -193,6 +193,9 @@
         // productos relacionados
         var related = function(tag)
         {
+
+            var random_seed = 'random('+ Math.random() +')';
+
             var config = {
                 'app_public' : app_public,
                 'base_url' : base_url,
@@ -200,10 +203,9 @@
                 'templateOrigin' : '#product_template_home',
                 'tag' : tag,
                 'ignore_stock' : true,
-                    'onLoad':function(){
-                     }
-                
+                'column': random_seed
             };
+
             $('.product-related').ecommerce('product_box', config);
         };
     });
