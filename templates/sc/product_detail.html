@@ -141,7 +141,7 @@
             {
                 for (var p in d)
                 {
-                    $(".stock-product").html($(".stock-product").html() + "Stock de " + p + " : " +d[p] + "<br>");
+                    $(".stock-product").html($(".stock-product").html() + p + " : " +d[p] + " Unidades <br>");
                     if(d[p] !== 0)
                     {
                         var l = p.split("-");
@@ -286,8 +286,9 @@
              <h1 class="name name_prod_detail ellipsis multiline" class="line" href="#">{{! name }}</h1>
               <h3 class="descr_prod_detail ellipsis multiline"> 
              {{! description }}</h3>
+              <div class="title-stock">Stock por producto SKU:</div>
+             <div class="stock-product"></div>
               <div class="product-price-2">{{! main_price|money }} </div>
-              <div class="stock-product"></div>
               <div class="col-md-12 mover variants-container">
               </div>
              <button 
