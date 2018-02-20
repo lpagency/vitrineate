@@ -323,9 +323,10 @@ hr.len {
 }
 
 .fufi {
-  position: relative;
+    position: relative;
     width: 220px;
     margin: auto;
+    height: 351px;
 }
 
 .overlay {
