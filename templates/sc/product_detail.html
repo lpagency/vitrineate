@@ -264,6 +264,19 @@
     });
 </script>
 
+<script type="text/javascript">
+  $(document).ready(function()
+  {
+    $(document).on("click", ".tallas", function()
+    {
+      if(!$(".tallas").hasClass("btn-disabled"))
+      {
+        $(".add-to-cart").attr("disabled",false);
+      }
+    });
+  });
+</script>
+
 <script type="text/template" id="product_detail">
 
 <section>
@@ -331,6 +344,7 @@
              product-sku="{{! sku }}" 
              product-id="{{! id }}" 
              product-img="{{! images[0]['thumb_500'] }}" 
+             disabled 
              lp-cart-add
              >Comprar</button>
           </div>
