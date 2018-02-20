@@ -266,7 +266,11 @@
   $(document).ready(function()
   {
     setTimeout(function(){
-      if($(".load-v").html() == "" && $(".load-v").html() == undefined)
+      if($(".load-v").html() == "")
+      {
+        $(".add-to-cart").attr("disabled", false);
+      }
+      if($(".load-v").html() == undefined)
       {
         $(".add-to-cart").attr("disabled", false);
       }
