@@ -92,10 +92,20 @@ $(document).ready(function()
         'onLoad': function(products) 
         {
             banners(tag);
-            // if (products.length === 0)
-            // {
-            //     $(".products").html("no hay productos con estos filtros");
-            // }
+            for(var x=0; x<products.length; x++)
+            {
+                if(products[x].promotion_price == 0)
+                {
+                    $("."+products[x].sku).addClass("hidden");
+                }
+                else
+                {
+                    console.log($("."+products[x].id).html());
+                    $("."+products[x].sku).css("font-weight", "bold");
+                    $("."+products[x].id).css("font-size","12px");
+                    $("."+products[x].id).css("text-decoration", "line-through");
+                }
+            }
         }
     };
 
