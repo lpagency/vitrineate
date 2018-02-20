@@ -266,12 +266,7 @@
   $(document).ready(function()
   {
     setTimeout(function(){
-      console.log($(".load-v").html());
-      if($(".load-v").html() != "" || $(".load-v").html() != undefined)
-      {
-        $(".add-to-cart").attr("disabled", true);
-      }
-      else
+      if($(".load-v").html() == "" && $(".load-v").html() == undefined)
       {
         $(".add-to-cart").attr("disabled", false);
       }
@@ -354,6 +349,7 @@
              product-sku="{{! sku }}" 
              product-id="{{! id }}" 
              product-img="{{! images[0]['thumb_500'] }}" 
+             disabled 
              lp-cart-add
              >Comprar</button>
           </div>
