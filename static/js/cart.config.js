@@ -101,7 +101,6 @@ $(document).ready(function()
                 else
                 {
                     console.log($("."+products[x].id).html());
-                    $("."+products[x].sku).css("font-weight", "bold");
                     $("."+products[x].id).css("font-size","12px");
                     $("."+products[x].id).css("text-decoration", "line-through");
                 }

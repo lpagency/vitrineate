@@ -182,7 +182,7 @@ div.image-upload.part1 {
     left: 0%;
     color: black;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: bold;
     margin-bottom: 35px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -241,6 +241,7 @@ div.image-upload.part1 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
+    font-weight: bold;
 }
 
 .descr_prod_detail {
