@@ -88,7 +88,8 @@ $(document).ready(function()
         'checkout_url': checkout_url, 
         'operator' :'or',
         'site_name': site_name,
-        'column': random_seed,
+        'column': 'main_price',
+        'direction' : 'desc',
         'onLoad': function(products) 
         {
             banners(tag);
@@ -124,8 +125,8 @@ $(document).ready(function()
                 }
                 else
                 {
-                    $("."+products[x].id).css("font-size","12px");
-                    $("."+products[x].id).css("text-decoration", "line-through");
+                    $(".producto."+products[x].id).css("font-size","12px");
+                    $(".producto."+products[x].id).css("text-decoration", "line-through");
                 }
             }
         }
