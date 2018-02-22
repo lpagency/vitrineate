@@ -37,6 +37,60 @@ a:link{
     background-image: none !important;
 }
 
+.letrero-sale {
+    position: relative;
+    left: 0px;
+    font-size: 11px;
+    text-align: center;
+    padding: 2px;
+    color: white;
+    background-color: orange;
+    width: 60px;
+    border: solid 1px orange;
+}
+
+.letrero-new {
+    position: relative;
+    left: 0px;
+    top: 3px;
+    font-size: 11px;
+    text-align: center;
+    padding: 2px;
+    color: white;
+    background-color: red;
+    width: 60px;
+    border: solid 1px red;
+}
+
+.overlay-sale{
+    top: 32px !important;
+}
+
+.overlay-new{
+    top: 32px !important;
+}
+
+.fufi-new{
+    top: -20px;
+}
+
+.overlay-ambos {
+    top: 53px !important;
+}
+
+.fufi-sale{
+    top: -22px;
+}
+
+.fufi-ambos {
+    top: -41px;
+}
+
+.letreros {
+    position: relative;
+    top: 70px;
+}
+
 .carousel-control.right{
     background-image: none !important;
 }

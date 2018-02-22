@@ -292,6 +292,7 @@ hr.len {
 .art-hi {
     overflow: hidden;
     padding: 0px 10px;
+    max-height: 351px;
 }
 
 #mainImage{
@@ -499,7 +500,7 @@ hr.detalle {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 58.5%;
+    height: 52%;
     width: 180px;
     opacity: 0;
     transition: .5s ease;
@@ -591,6 +592,10 @@ hr.detalle {
 
 @media (max-width: 575px){
 
+    .art-hi{
+        max-height: 260px;
+    }
+
 .product-detail{
     margin-top: 0px;
 }
@@ -633,7 +638,7 @@ hr.detalle {
     margin: 15px auto;
 }
 .overlay {
-    height: 71% !important;
+    height: 73% !important;
 }
 .fufi {
     position: relative;
@@ -864,6 +869,11 @@ hr.detalle {
         height: 127px;
 
     }*/
+
+    .overlay{
+        height: 77% !important;
+        width: 100%;
+    }
 
     .art-hi{
         height: 260px;
