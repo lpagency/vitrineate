@@ -32,7 +32,7 @@
     {
         var base_url = $.environmentVar(
           /*'https://apibodegas.ondev.today/',*    <- para poder probar en ondev*/ 
-          'https://apibodegas.ondev.today/',
+          'https://apibodegas.loadingplay.com/',
           'https://apibodegas.ondev.today/',
           'https://apibodegas.loadingplay.com/');
         var checkout_url = $.environmentVar(
@@ -66,6 +66,30 @@
             },
             onLoad: function(product)
             {
+
+              for(x in product.tags)
+              {
+
+                switch((product.tags[x].name))
+                {
+                  case "oferta":
+                    if(product.tags[x].name.indexOf("nuevo") > -1)
+                   {
+                    $("#mainImage").addClass("img-ambos");
+                    $(".letrero-sale-detail").removeClass("hidden");
+                    $(".letrero-new-detail").removeClass("hidden");
+                   }
+                    break;
+                  case "nuevo":
+                    $("#mainImage").addClass("img-new");
+                    $(".letrero-new-detail").removeClass("hidden");
+                    break;
+                  case "oferta":
+                    $("#mainImage").addClass("img-sale");
+                    $(".letrero-sale-detail").removeClass("hidden");
+                    break;
+                }
+              }
 
               if(product.promotion_price != undefined)
               {
@@ -328,6 +352,10 @@
             <div class="col-md-6 col-sm-6 col-xs-12 img-ppal-movil">
                   <div id="mainDiv">
                     <div class="main-img-container">
+                      <div class="letreros-detalle">
+                        <div class="letrero-sale-detail hidden {{! sku }}">OFERTA</div>
+                        <div class="letrero-new-detail hidden {{! sku }}">NUEVO</div>
+                      </div>
                        <img id='mainImage' class="fondo-detalle" src="{{! images[1]['thumb_500'] }}"/>
                     </div>
                   </div>

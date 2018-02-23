@@ -37,6 +37,51 @@ a:link{
     background-image: none !important;
 }
 
+.img-ambos{
+    top: -60px !important;
+}
+
+.img-new{
+    top: -40px !important;
+}
+
+.img-sale{
+    top: -30px !important;
+}
+
+.letreros-detalle{
+    position: relative;
+    left: -216px;
+    top: 20px;
+}
+
+.letrero-sale-detail{
+    position: relative;
+    left: 0px;
+    font-size: 17px;
+    text-align: center;
+    padding: 2px;
+    color: white;
+    background-color: orange;
+    width: 22%;
+    border: solid 1px orange;
+    z-index: 1;
+}
+
+.letrero-new-detail {
+    z-index: 1;
+    position: relative;
+    left: 0px;
+    top: 3px;
+    font-size: 17px;
+    text-align: center;
+    padding: 2px;
+    color: white;
+    background-color: red;
+    width: 22%;
+    border: solid 1px red;
+}
+
 .letrero-sale {
     position: relative;
     left: 0px;
