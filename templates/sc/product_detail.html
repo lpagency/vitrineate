@@ -67,30 +67,43 @@
             onLoad: function(product)
             {
 
-              for(x in product.tags)
+              for(var x=0; x<product.tags.length; x++)
               {
+                console.log(product.tags[x]);
 
-                switch((product.tags[x].name))
+                if(product.tags[x].name.indexOf("oferta") > -1)
                 {
-                  case "oferta":
-                  case "nuevo":
-                    if(product.tags[x].name.indexOf("nuevo") > -1)
-                   {
-                    console.log("aaa");
+                  $("#mainImage").addClass("img-sale");
+                  $(".letrero-sale-detail").removeClass("hidden");
+                }
+
+                if(product.tags[x].name.indexOf("nuevo") > -1)
+                {
+                  $("#mainImage").addClass("img-new");
+                  $(".letrero-new-detail").removeClass("hidden");
+                }
+
+                if(product.tags[x].name.indexOf("nuevo") > -1 && product.tags[x].name.indexOf("oferta") > -1)
+                {
                     $("#mainImage").addClass("img-ambos");
                     $(".letrero-sale-detail").removeClass("hidden");
                     $(".letrero-new-detail").removeClass("hidden");
-                   }
-                    break;
-                  case "nuevo":
-                    $("#mainImage").addClass("img-new");
-                    $(".letrero-new-detail").removeClass("hidden");
-                    break;
-                  case "oferta":
-                    $("#mainImage").addClass("img-sale");
-                    $(".letrero-sale-detail").removeClass("hidden");
-                    break;
                 }
+
+                // switch((product.tags[x].name))
+                // {
+                //   case "oferta":
+                //   case "nuevo":
+                //   console.log("!alksdjfhalkjd");
+                //     
+                //     break;
+                //   case "nuevo":
+                
+                //     break;
+                //   case "oferta":
+                
+                //     break;
+                // }
               }
 
               if(product.promotion_price != undefined)
