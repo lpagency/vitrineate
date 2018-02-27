@@ -125,6 +125,10 @@ outline-offset: -2px;
     margin-right: 40px;
 }
 
+.logo-desk{
+    left: 480px;
+}
+
 .logo {
     width: 124px;
     position: absolute;
