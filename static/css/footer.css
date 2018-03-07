@@ -25,6 +25,20 @@
     right: 0px;
 }
 
+.inscribete-div{
+    width: 71.1%;
+}
+
+.inscribete-btn{
+    position: relative;
+    top: 10px;
+    float: right;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .footer-logo-rrss {
     width: 100%;
     background: transparent;
@@ -195,6 +209,19 @@ img#vitrineate_img_logo_footer {
 }
 
 @media (max-width: 767px){
+
+.inscribete-div {
+    width: inherit;
+}
+
+.insc-input{
+    border: solid 1px;
+}
+
+.inscribete-btn{
+    float: inherit;
+    margin-bottom: 20px;
+}
 
 .img-foot {
     left: 0px;
