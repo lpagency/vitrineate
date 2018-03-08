@@ -18,12 +18,12 @@
 
 .huincha-header{
     background-color: #d6ff3e;
-    height: 64px;
+    height: 32px;
 }
 
 .header-text-huincha{
     position: relative;
-    top: 21px;
+    top: 4px;
     max-height: 20px;
     width: 900px;
     overflow: hidden;
