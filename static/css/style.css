@@ -54,6 +54,9 @@ a:link{
     background-color: #d6ff3e;
     width: 100% !important;
 }
+.contenido-productos{
+    margin-bottom: 20px;
+}
 .contacto-btn{
     background: none;
     border: solid 1px;
