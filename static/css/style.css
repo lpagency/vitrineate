@@ -52,6 +52,7 @@ a:link{
 }
 .cont-prefooter{
     background-color: #d6ff3e;
+    width: 100% !important;
 }
 .contacto-btn{
     background: none;
