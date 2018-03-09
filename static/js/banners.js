@@ -58,8 +58,11 @@ function banners(tag)
 		case "paula_mar":
 			$(".listado_productos_marca15").removeClass("hidden");
 		break;
-
-
-		
+		case "villagran_villagran":
+			$(".listado_productos_marca16").removeClass("hidden");
+		break;
+		case "dionea":
+			$(".listado_productos_marca17").removeClass("hidden");
+		break;
 	}
 }
