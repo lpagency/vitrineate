@@ -21,6 +21,14 @@
     height: 32px;
 }
 
+.cerrar-huincha{
+    float: right;
+    top: 3px;
+    background: none;
+    border: solid 1px black;
+    position: relative;
+}
+
 .header-text-huincha{
     position: relative;
     top: 4px;
