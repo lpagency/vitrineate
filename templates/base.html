@@ -388,7 +388,14 @@
                 {
                     $(".form-search").removeClass("hidden");
                     $(".img-lupa").css("width","15%");
-                    $(".img-lupa").css("left","177px");
+                    if($(window).width() == 1351)
+                    {
+                        $(".img-lupa").css("left","222px");
+                    }
+                    else
+                    {
+                        $(".img-lupa").css("left","177px");
+                    }
                     $(".img-lupa").css("top","-25px");
                     $(".buscador").css("right","60px");
                     $(".buscador").css("top","-2px");
