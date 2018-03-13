@@ -1189,6 +1189,11 @@ hr.page-contact {
 }
 
 @media (max-width: 500px){
+
+    .hgi {
+        margin-top: 10%;
+    }
+
 .constr{
     display: inline-block;
     top:120px;
