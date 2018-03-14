@@ -369,6 +369,16 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
 }
 
 @media (max-width: 991px) {
+    ::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background-color: rgba(0,0,0,.5);
+      -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    }
     .navbar-header {
         float: none;
     }
@@ -396,8 +406,8 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
 
    .navbar-collapse.collapse.in {
         display: block!important;
-        overflow: scroll;
-        max-height: 657px;
+        overflow: scroll !important;
+        max-height: 300px;
     }
     .img-bolsa {    
         width: 5%;
@@ -453,6 +463,16 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
 
 }
 @media (max-width: 767px){
+    ::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background-color: rgba(0,0,0,.5);
+      -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    }
     .dropdown-menu{
         position: static;
         float: none;
