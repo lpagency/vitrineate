@@ -540,6 +540,40 @@ input.busca.search {
 }
 }
 
+@media (max-width: 736px){
+    ::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 10px;
+    }
+    .navbar-collapse.collapse.in {
+        display: block!important;
+        overflow: scroll;
+        max-height: 320px;
+    }
+    ::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background-color: rgba(0,0,0,.5);
+      -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    }
+}
+
+@media (max-width: 667px)
+{
+    .navbar-collapse.collapse.in {
+        display: block!important;
+        overflow: scroll;
+        max-height: 289px;
+    }
+}
+
+@media (max-width: 568px){
+    .navbar-collapse.collapse.in {
+        display: block!important;
+        overflow: scroll;
+        max-height: 257px;
+    }
+}
+
 
 @media (max-width: 414px){
     ::-webkit-scrollbar {
