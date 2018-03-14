@@ -1101,9 +1101,11 @@ hr.page-contact {
 }
 
 @media (max-width: 800px){
-      .contacto-btn{
-    left: 210px;
-  }
+.contacto-btn {
+    left: -47px;
+}
+
+
     .carousel-inner {
     height: 270px;
     margin-top: 70px;
@@ -1114,7 +1116,28 @@ hr.page-contact {
 }
 }
 
+@media (max-width: 768px){
+    .col-first{
+        padding-left: inherit;
+    }
+    .relleno-1 {
+        padding-right: inherit;
+        margin-bottom: 23px;
+    }
+    .relleno {
+        padding-left: inherit;
+    }
+    .col-sec {
+        padding-right: inherit;
+    }
+
+    .logos-mobile{
+        height: 150px;
+    }
+}
+
 @media (max-width: 767px){
+
     .div-index-1 {
         top: 30px;
         margin-bottom: 15%;
@@ -1130,8 +1153,14 @@ hr.page-contact {
         margin-bottom: 3%;
     }
 
-    .contacto-btn{
-        left: 34px;
+    .contacto-btn {
+        left: 76px;
+    }
+    .mar{
+        margin-top: 0px;
+    }
+    .cont-prefooter{
+        height: 180px;
     }
     .banner-movil{
     height: 203px !important;
@@ -1216,13 +1245,24 @@ hr.page-contact {
     .bot {
     height: 53px;
 }
+.texto-huincha-pre {
+    text-align: center;
+}
 
 }
 
 @media (max-width: 500px){
 
+    .primero{
+        margin-top: 15% !important;
+    }
+
+    .texto-hu{
+        bottom: 96px;
+    }
+
     .hgi {
-        margin-top: 10%;
+        margin-top: 6%;
     }
 
 .constr{
@@ -1294,7 +1334,8 @@ hr.page-contact {
 }
 
 .box-gra{
-    object-fit: contain;
+    object-fit: cover;
+    height: 164px;
 }
 
 .box-gra-peq{
