@@ -45,6 +45,9 @@ a:link{
 .col-first{
     padding-left: 0px;
 }
+.col-sec{
+    padding-right: 0px;
+}
 .link-banner{
     position: absolute;
     width: 95%;
@@ -60,24 +63,29 @@ a:link{
     padding-right: 0px;
 }
 .cont-prefooter{
-    background-color: #d6ff3e;
+    background-color: #3eedff;
     width: 100% !important;
+    height: 120px;
 }
 .contenido-productos{
     margin-bottom: 20px;
+    margin-top: -94px;
 }
-.contacto-btn{
+.contacto-btn {
     background: none;
-    border: solid 1px;
+    color: white;
+    border: solid 2px white;
     position: relative;
     margin-bottom: 20px;
-    left: 370px;
+    top: 24px;
+    font-weight: 600;
     font-size: 18px;
-    padding: 20px 100px 20px;
+    padding: 20px 40px 20px;
 }
 .texto-huincha-pre{
+    color: white;
     position: relative;
-    top: 20px;
+    top: 43px;
     font-size: 20px;
     font-weight: 500;
 }
@@ -345,16 +353,34 @@ div.image-upload.par1 {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.productos-titulos{
+    margin-top: 26px;
+}
+.titulo-p{
+    text-align: center;
+}
+
 .box-gra{
     width: 100%;
     position: relative;
-    height: 258.5px;
+    height: 260px;
     object-fit: cover;
     filter: grayscale(0%) brightness(90%);
     -webkit-filter: grayscale(0%) brightness(90%);
     -moz-filter: grayscale(0%) brightness(90%);
     -ms-filter: grayscale(0%) brightness(90%);
     -o-filter: grayscale(0%) brightness(90%);
+}
+
+section#first-page-scroll {
+    margin-bottom: 15px;
+}
+
+.relleno-1{
+    padding-right: 8px;
+}
+.relleno{
+    padding-left: 8px;
 }
 
 .box-gra-peq {
