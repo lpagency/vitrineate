@@ -566,16 +566,6 @@ input.busca.search {
 
 
 @media (max-width: 414px){
-    ::-webkit-scrollbar {
-      -webkit-appearance: none;
-      width: 10px;
-    }
-
-    ::-webkit-scrollbar-thumb {
-      border-radius: 5px;
-      background-color: rgba(0,0,0,.5);
-      -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
-    }
   .base-logo {
     width: 200px;
     height: 53px;
@@ -618,7 +608,7 @@ input.busca.search {
 @media (max-width: 400px){
 
     .navbar-collapse.collapse.in{
-        max-height: 559px;
+        max-height: 577px;
     }
   .base-logo {
     width: 200px;
@@ -635,7 +625,8 @@ input.busca.search {
 
 @media (max-width: 360px){
     .navbar-collapse.collapse.in{
-        max-height: 500px;
+            max-height: 512px;
+
     }
     .base-logo {
     width: 200px;
