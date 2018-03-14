@@ -421,7 +421,7 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
    .navbar-collapse.collapse.in {
         display: block!important;
         overflow: scroll;
-        max-height: 512px;
+        max-height: 657px;
     }
     .img-bolsa {    
         width: 5%;
@@ -606,6 +606,10 @@ input.busca.search {
 }
 
 @media (max-width: 400px){
+
+    .navbar-collapse.collapse.in{
+        max-height: 577px;
+    }
   .base-logo {
     width: 200px;
     height: 53px;
@@ -620,6 +624,10 @@ input.busca.search {
 
 
 @media (max-width: 360px){
+    .navbar-collapse.collapse.in{
+            max-height: 512px;
+
+    }
     .base-logo {
     width: 200px;
     height: 53px;
