@@ -648,7 +648,7 @@ input.busca.search {
 @media (max-width: 400px){
 
     .navbar-collapse.collapse.in{
-        max-height: 559px;
+        max-height: 300px;
     }
   .base-logo {
     width: 200px;
@@ -665,7 +665,7 @@ input.busca.search {
 
 @media (max-width: 360px){
     .navbar-collapse.collapse.in{
-        max-height: 500px;
+        max-height: 328px;
     }
     .base-logo {
     width: 200px;
