@@ -394,9 +394,10 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
         padding-bottom: 10px;
     }
 
-   .navbar-collapse.collapse.in {  /* NEW */
-        display: block!important; 
-        max-height: 800px;
+   .navbar-collapse.collapse.in {
+        display: block!important;
+        overflow: scroll;
+        max-height: 512px;
     }
     .img-bolsa {    
         width: 5%;
