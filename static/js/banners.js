@@ -64,5 +64,8 @@ function banners(tag)
 		case "dionea":
 			$(".listado_productos_marca17").removeClass("hidden");
 		break;
+		case "amelie_lingerie":
+			$(".listado_productos_marca18").removeClass("hidden");
+		break;
 	}
 }
