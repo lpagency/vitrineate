@@ -917,9 +917,9 @@ hr.page-contact {
 @media screen and (min-width: 768px) {
   .logos-titulo {
     font-size: 1.875rem;
-    margin: 0px 290px 3.125rem auto;
+    margin: 0px 290px 3.125rem 90px;
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -1137,6 +1137,11 @@ hr.page-contact {
     }
     .col-sec {
         padding-right: inherit;
+    }
+
+    .logos-titulo{
+        text-align: center;
+        margin: 0px 290px 3.125rem auto;
     }
 
     .logos-mobile{
