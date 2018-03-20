@@ -450,8 +450,8 @@ hr.detalle {
     }
 
     .mobile-search{
-        border: solid 1px #757575;
-        width: 95%;
+        border: solid 1px #b1b1b1;
+        width: 100%;
     }
 }
 @media (max-width: 991px){
