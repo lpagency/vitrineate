@@ -53,6 +53,9 @@ a:link{
     width: 95%;
     height: 49%;
 }
+.margen-titulo-logos{
+    margin-left: 22px !important;
+}
 .link-banner-main{
     position: absolute;
     width: 100%;
@@ -70,6 +73,7 @@ a:link{
 .contenido-productos{
     margin-bottom: 20px;
     margin-top: -94px;
+    width: 1193px;
 }
 .contacto-btn {
     background: none;
@@ -889,7 +893,6 @@ hr.page-contact {
 }
 .logos {
   padding: 2.9167rem 15px 5.4167rem 15px;
-  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -913,7 +916,7 @@ hr.page-contact {
 @media screen and (min-width: 768px) {
   .logos-titulo {
     font-size: 1.875rem;
-    margin: 0 auto 3.125rem auto;
+    margin: 0px 290px 3.125rem auto;
     width: 70%;
   }
 }

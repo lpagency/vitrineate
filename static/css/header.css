@@ -16,6 +16,18 @@
     cursor: pointer;
 }
 
+.cerrar-huincha{
+    float: right;
+    background: none;
+    border: solid 1px;
+    top: 2px;
+    position: relative;
+}
+
+.huincha-header{
+    background-color: #d7ff3e;
+}
+
 .texto-b {
     position: relative;
     right: 60px;
