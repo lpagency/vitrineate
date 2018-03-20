@@ -400,13 +400,15 @@
             {
                 $(document).on("click", ".img-lupa-movil", function()
                 {
-                    if($(".buscador-movil").hasClass("hidden"))
+                    if($(".forma-movil").hasClass("hidden"))
                     {
-                        $(".buscador-movil").removeClass("hidden");
+                        $(".categorias-movil").addClass("hidden");
+                        $(".forma-movil").removeClass("hidden");
                     }
                     else
                     {
-                        $(".buscador-movil").addClass("hidden");
+                        $(".forma-movil").addClass("hidden");
+                        $(".categorias-movil").removeClass("hidden");
                     }
                 });
             }

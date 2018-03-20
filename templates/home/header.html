@@ -5,7 +5,7 @@
   </div>
              <div class="col-md-12 head-logo">
                <li class="bolsa" id="open-cart" data-toggle="modal" data-target="#myModal">
-                <img class="img-bolsa" src="https://7static.loadingplay.com/static/images/911119ac3236de43c7cb3394e6e07438_bag_transparente.png">
+                <img class="img-bolsa" src="https://cdn.loadingplay.com/static/images/34b9602179fdac2bb493e006a8eac7a1_carrito.png">
                 CARRITO
               </li>
             </div>
@@ -163,7 +163,7 @@
                 </button>
                 <li class="bolsa-movil" id="open-cart" data-toggle="modal" data-target="#myModal">
                   <!-- <a href="" class="com"> Comprar </a> -->
-                  <img class="img-bolsa" src="https://84static.loadingplay.com/static/images/a7e448549edf96dc7351da41bda4ffc2_shopping_bag.png">
+                  <img class="img-bolsa" src="https://cdn.loadingplay.com/static/images/34b9602179fdac2bb493e006a8eac7a1_carrito.png">
                 </li>
                 <li class="lupa-movil">
                   <input class="img-lupa img-lupa-movil" type="image" src="https://7static.loadingplay.com/static/images/1da6ee373afe0e65ad1b94c0d7cd9e9d_Vector_search_iconclaro.png" border="0"/>
@@ -195,8 +195,7 @@
                     <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_zapatos_m">ZAPATOS</a></li>
                     <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_ropa_interior_m">ROPA INTERIOR</a></li>
                     <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_ropa_deportiva_m">ROPA DEPORTIVA</a></li>
-                    <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_trajes_de_bano_m">TRAJE DE BAÑO</a></li>                    
-                    <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat1_mujer">TODO</a></li>
+                    <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_trajes_de_bano_m">TRAJE DE BAÑO</a></li>
                   </ul>
                 </li>
                 <li class="">
@@ -205,7 +204,6 @@
                     <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_camisa_h">CAMISAS</a></li>
                     <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_trajes_de_bano_h">TRAJE DE BAÑO</a></li>
                     <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_polera_h">POLERAS</a></li>
-                    <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat1_hombre">TODO</a></li>
                   </ul>
                 </li>
                 <li class="">
@@ -213,7 +211,6 @@
                   <ul class="dropdown-menu">
                     <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_ropa_n">ROPA</a></li>
                     <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_accesorios_n">ACCESORIOS</a></li>
-                    <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat1_ninos">TODO</a></li>
                   </ul>
                 </li>
                 <li class="">
@@ -223,7 +220,6 @@
                     <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_collares">COLLARES</a></li>
                     <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_cinturon">CINTURONES</a></li>
                     <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat2_mochilas">MOCHILAS</a></li>
-                    <li><a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat1_accesorios">TODO</a></li>
                   </ul>
                 </li>
                 <li class="">
@@ -250,8 +246,22 @@
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <div class="col-xs-12 hidden buscador-movil">
-          <form id="searchform" class="form-search" role="search" action="{{ site_base }}/listado_productos" method="get">
+        <div class="col-xs-12 buscador-movil">
+          <div class="categorias-movil">
+            <div class="col-sm-3 col-xs-3 nombre-categorias-movil">
+              <a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat1_mujer">Mujer</a>
+            </div>
+            <div class="col-sm-3 col-xs-3 nombre-categorias-movil">
+              <a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat1_hombre">Hombre</a>
+            </div>
+            <div class="col-sm-3 col-xs-3 nombre-categorias-movil">
+              <a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat1_ninos">Niños</a>
+            </div>
+            <div class="col-sm-3 col-xs-3 nombre-categorias-movil">
+              <a tabindex="-1" href="{{ site_base }}/listado_productos?tag=cat1_accesorios">Accesorios</a>
+            </div>
+          </div>
+          <form id="searchform" class="form-search forma-movil hidden" role="search" action="{{ site_base }}/listado_productos" method="get">
               <input type="text" name="search_query" placeholder="Buscar" class="busca search mobile-search" value="{% try %}{{search_query}}{% except %}{% end %}">
           </form>
         </div>

@@ -918,7 +918,8 @@ hr.page-contact {
   .logos-titulo {
     font-size: 1.875rem;
     margin: 0px 290px 3.125rem auto;
-    width: 70%;
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -1034,20 +1035,23 @@ hr.page-contact {
 @media (max-width: 991px){
 
     .div-index-1{
-        top: 130px;
+        top: 180px;
         padding-left: inherit;
+        height: 400px;
     }
 
     .div-index-2{
         padding-left: inherit;
         padding-right: inherit;
         top: 180px;
+        height: 400px;
     }
 
     .div-index-3{
         padding-right: inherit;
-        top: 190px;
-        margin-bottom: 36%;
+        top: 180px;
+        height: 400px;
+        margin-bottom: 28%;
     }
 
     .box-gra-peq {
@@ -1137,6 +1141,7 @@ hr.page-contact {
 
     .logos-mobile{
         height: 150px;
+        left: 104px;
     }
 }
 
@@ -1149,12 +1154,14 @@ hr.page-contact {
 
     .div-index-2{
         top: 54%;
+        height: 260px;
+        margin-top: 130px;
     }
 
     .div-index-3{
         top: 50px;
         margin-top: -13%;
-        margin-bottom: 3%;
+        margin-bottom: 37%;
     }
 
     .contacto-btn {
@@ -1335,6 +1342,19 @@ hr.page-contact {
     margin-top: 80px;
     object-fit: cover;
     border-radius: 180px;
+}
+
+.fondo-principal{
+    height: 260px !important;
+}
+
+.logos-titulo{
+    text-align: center;
+}
+
+.logos-mobile {
+    height: 150px;
+    left: 14px;
 }
 
 .box-gra{

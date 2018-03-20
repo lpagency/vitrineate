@@ -1,7 +1,7 @@
 .img-bolsa {
-    width: 9%;
+    width: 21%;
     position: relative;
-    left: 53%;
+    left: 122%;
     top: -5px;
     cursor: pointer;
 }
@@ -45,7 +45,7 @@
 
 li.bolsa{
     float: right;
-    left: 10%;
+    left: -3%;
     position: relative;
     color: black;
     font-weight: 400;
@@ -401,6 +401,18 @@ ul.w3-ul{list-style-type:none;padding:0;margin:0}ul.w3-ul li{padding:6px 2px 6px
         width: 104%;
     }
 
+    .categorias-movil{
+        border-bottom: solid 1px black;
+        border-top: solid 1px black;
+        height: 38px;
+    }
+
+    .nombre-categorias-movil{
+        position: relative;
+        top: 5px;
+        font-weight: bolder;
+    }
+
     .lupa-movil{
         position: relative;
         left: -60px;
@@ -652,15 +664,19 @@ input.busca.search {
       background-color: rgba(0,0,0,.5);
       -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
     }
-  .base-logo {
-    width: 200px;
-    height: 53px;
-    border-radius: 0%;
-    position: relative;
-    z-index: 200;
-    left: 0%;
-    margin-right: 0;
-}
+    .base-logo {
+        width: 200px;
+        height: 53px;
+        border-radius: 0%;
+        position: relative;
+        z-index: 200;
+        left: 0%;
+        margin-right: 0;
+    }
+    .movil-logo {
+        position: relative;
+        left: 66px;
+    }
 
 .logo {
     width: 150px;
@@ -682,9 +698,9 @@ input.busca.search {
     float: right;
 }
 .img-lupa {
-    width: 9%;
+    width: 7%;
     position: relative;
-    top: 0;
+    top: 6px;
     left: 28px;
     cursor: pointer;
     float: right;
