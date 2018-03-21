@@ -88,8 +88,8 @@ $(document).ready(function()
         'checkout_url': checkout_url, 
         'operator' :'or',
         'site_name': site_name,
-        'column': 'main_price',
-        'direction' : 'desc',
+        'column': 'name',
+        'direction' : 'asc',
         'onLoad': function(products) 
         {
             banners(tag);
