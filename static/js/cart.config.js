@@ -92,6 +92,19 @@ $(document).ready(function()
         'direction' : 'asc',
         'onLoad': function(products) 
         {
+            for(x in products)
+            {
+                var prod = products[x].sku;
+
+                $.get( config.base_url+"v1/variant/"+prod+"/combination?namespace=vitrineate_"+prod, function(data)
+                {
+                    var aux = data.combinations[0].sku.split("-");
+                    if(data.combinations.length == 1)
+                    {
+                        $("."+aux[0].toString()+".comprar-btn").removeClass("hidden");
+                    }
+                });
+            }
             banners(tag);
             for(var x=0; x<products.length; x++)
             {
