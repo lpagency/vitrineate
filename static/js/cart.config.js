@@ -39,7 +39,7 @@ String.prototype.replaceAll = function(search, replacement) {
     return target.split(search).join(replacement);
 };
 
-$(document).ready(function() 
+$(document).ready(function()
 {
     var params = getIncludeParameters();
     var tag = '';
@@ -60,12 +60,12 @@ $(document).ready(function()
         $("#todos").addClass("active");
     }
         var base_url = $.environmentVar(
-          /*'https://apibodegas.ondev.today/',*    <- para poder probar en ondev*/ 
+          /*'https://apibodegas.ondev.today/',*    <- para poder probar en ondev*/
           'https://apibodegas.loadingplay.com/',
           'https://apibodegas.loadingplay.com/',
           'https://apibodegas.loadingplay.com/');
         var checkout_url = $.environmentVar(
-          /*'https://lpcheckout.ondev.today/',    <- para poder probar en ondev*/ 
+          /*'https://lpcheckout.ondev.today/',    <- para poder probar en ondev*/
           'https://pay.loadingplay.com',
           'https://pay.loadingplay.com',
           'https://pay.loadingplay.com');
@@ -80,17 +80,17 @@ $(document).ready(function()
 
         'app_public': app_public,
         'base_url': base_url,
-        'products_per_page' : 8, 
+        'products_per_page' : 8,
         'tag': tag,
         'ignore_stock': true,
         'infinite_scroll': false,
         //'maxProducts': 150,
-        'checkout_url': checkout_url, 
+        'checkout_url': checkout_url,
         'operator' :'or',
         'site_name': site_name,
-        'column': 'name',
+        'column': 'position',
         'direction' : 'asc',
-        'onLoad': function(products) 
+        'onLoad': function(products)
         {
             banners(tag);
             for(var x=0; x<products.length; x++)
@@ -149,7 +149,7 @@ $(document).ready(function()
         // }
         config.tag=$(this).attr('tag');
         // console.log(config);
-        
+
         // facade.page = 1; // o 1 no estoy seguro
         $(".products").html("");
         $(document).ecommerce('destroy');
