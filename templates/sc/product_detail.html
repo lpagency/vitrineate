@@ -51,9 +51,9 @@
     $(document).ready(function()
     {
         var base_url = $.environmentVar(
-/*'https://apibodegas.ondev.today/',*    <- para poder probar en ondev*/
+/*'https://apibodegas.loadingplay.com/',*    <- para poder probar en ondev*/
           'https://apibodegas.loadingplay.com/',
-          'https://apibodegas.ondev.today/',
+          'https://apibodegas.loadingplay.com/',
           'https://apibodegas.loadingplay.com/');
         var checkout_url = $.environmentVar(
           /*'https://lpcheckout.ondev.today/',    <- para poder probar en ondev*/
@@ -364,7 +364,7 @@
 
 <section>
 
-      <div class="container min">
+      <div class="container min contenido-index">
         <div align="center">
           <div class="col-md-6 col-sm-6 col-xs-12 img-ppal-movil">
             <div id="mainDiv">
@@ -379,7 +379,7 @@
            </div>
          </div>
 
-          <div class="col-md-5 col-sm-5 col-xs-12 text-prod-desk">
+          <div class="col-md-6 col-sm-6 col-xs-12 text-prod-desk">
              <h1 class="name name_prod_detail ellipsis multiline" class="line" href="#">{{! name }}</h1>
               <div class="descripcion-producto">
                 <h3 class="descr_prod_detail ellipsis multiline bordes-desc">Descripción<i class="fa fa-plus signos-desc" aria-hidden="true"></i></h3>
@@ -401,7 +401,7 @@
                 <div class="product-price-2 main-price">{{! main_price|money }} </div>
                 <div class="product-price-2 promotion-price">{{! promotion_price|money }} </div>
              </div>
-             <div class="col-md-6">
+             <div class="col-md-6 padding-r">
               <button
                type="button"
                class="btn add-to-cart btn-success comprar"

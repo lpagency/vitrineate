@@ -36,6 +36,9 @@ a:link{
     font-weight: 100;
     margin-bottom: 15px;
 }
+.padding-r{
+    padding-right: 0px;
+}
 .shape {
     margin-top: -104px;
     position: relative;
@@ -125,6 +128,7 @@ a:link{
 }
 .text-prod-desk{
     background-color: #e9ffc6;
+    top: 30px;
 }
 .cont-prefooter{
     background-color: #3eedff;
@@ -1409,6 +1413,10 @@ hr.page-contact {
     margin-top: 80px;
     object-fit: cover;
     border-radius: 180px;
+}
+
+.text-prod-desk {
+    margin-top: 0px !important;
 }
 
 .logos-titulo{
