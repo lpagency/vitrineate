@@ -34,6 +34,27 @@ div.image-upload.part1 {
     font-size: 13px !important;
 }
 
+.textos-info{
+    width: 100% !important;
+    border: 1px solid rgb(167, 167, 167) !important;
+    padding: inherit !important;
+    margin-bottom: 0px !important;
+    height: inherit !important;
+    float: inherit !important;
+    left: inherit !important;
+    position: inherit !important;
+    margin-left: inherit !important;
+    font-size: inherit !important;
+    border-radius: inherit !important;
+    font-weight: inherit !important;
+}
+
+.info-producto{
+    float: right;
+    position: relative;
+    top: -10px;
+}
+
 .stock-product{
     margin-bottom: 30px;
     font-size: 12px;
