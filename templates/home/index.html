@@ -62,7 +62,7 @@
               {
                 var prod = products[x].sku;
 
-                $.get( config.base_url+"v1/variant/"+prod+"/combination?namespace=vitrineate_"+prod, function(data)
+                $.get( config.base_url+"v1/variant/"+prod+"/combination?site_name=vitrineate&sku="+prod, function(data)
                 {
                   var aux = data.combinations[0].sku.split("-");
                   if(data.combinations.length == 1)
