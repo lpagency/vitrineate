@@ -57,12 +57,6 @@
             'onLoad':function(products){
                for(var x=0; x<products.length; x++)
               {
-                  if(products[x].tags.indexOf("oferta") > -1)
-                  {
-                      $(".letrero-sale."+products[x].promotion_price).removeClass("hidden");
-                      $(".overlay."+products[x].id).addClass("overlay-sale");
-                      $(".fufi."+products[x].id).addClass("fufi-sale");
-                  }
 
                   if(products[x].tags.indexOf("nuevo") > -1)
                   {
@@ -87,6 +81,9 @@
                   }
                   else
                   {
+                      $(".letrero-sale."+products[x].promotion_price).removeClass("hidden");
+                      $(".overlay."+products[x].id).addClass("overlay-sale");
+                      $(".fufi."+products[x].id).addClass("fufi-sale");
                       $("."+products[x].sku).css("font-weight", "bold");
                       $(".producto."+products[x].id).css("font-size","12px");
                       $(".producto."+products[x].id).css("text-decoration", "line-through");

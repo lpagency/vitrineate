@@ -95,13 +95,6 @@ $(document).ready(function()
             banners(tag);
             for(var x=0; x<products.length; x++)
             {
-                if(products[x].tags.indexOf("oferta") > -1)
-                {
-                    $(".letrero-sale."+products[x].promotion_price).removeClass("hidden");
-                    $(".overlay."+products[x].id).addClass("overlay-sale");
-                    $(".fufi."+products[x].id).addClass("fufi-sale");
-                }
-
                 if(products[x].tags.indexOf("nuevo") > -1)
                 {
                     $(".letrero-new."+products[x].id).removeClass("hidden");
@@ -125,6 +118,9 @@ $(document).ready(function()
                 }
                 else
                 {
+                    $(".letrero-sale."+products[x].promotion_price).removeClass("hidden");
+                    $(".overlay."+products[x].id).addClass("overlay-sale");
+                    $(".fufi."+products[x].id).addClass("fufi-sale");
                     $(".producto."+products[x].id).css("font-size","12px");
                     $(".producto."+products[x].id).css("text-decoration", "line-through");
                 }
