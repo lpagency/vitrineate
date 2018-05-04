@@ -215,7 +215,7 @@ div.image-upload.par1 {
     position: relative;
     top: -27px;
     font-family: 'Montserrat', sans-serif;
-    font-weight:400; 
+    font-weight:400;
     color: rgba(84, 84, 84, 0.79);
 }
 
@@ -484,8 +484,8 @@ div.image-upload.con {
     padding-left: 3%;
     }
 
- /*para borrar despues*/ 
-.temporal{ 
+ /*para borrar despues*/
+.temporal{
     position: relative;
     display: block;
     padding: 14px 4%;
@@ -949,7 +949,7 @@ hr.page-contact {
     width: 0;
 }
 .opc-menu{
-    padding-left: 0; 
+    padding-left: 0;
 }
 .rrss {
     position: absolute;
@@ -997,11 +997,6 @@ hr.page-contact {
     position: relative;
     height: 199px;
     object-fit: cover;
-    filter: grayscale(0%) brightness(75%);
-    -webkit-filter: grayscale(0%) brightness(75%);
-    -moz-filter: grayscale(0%) brightness(75%);
-    -ms-filter: grayscale(0%) brightness(75%);
-    -o-filter: grayscale(0%) brightness(75%);
     margin-bottom: 5px;
     margin-top: 16px;
 }
@@ -1053,7 +1048,7 @@ hr.page-contact {
     width: 0;
 }
 .opc-menu{
-    padding-left: 0; 
+    padding-left: 0;
 }
 
 }
@@ -1205,7 +1200,7 @@ hr.page-contact {
 @media (max-width: 320px){
 
 .img-hed-3 {
-   
+
     top: 13px;
 }
 .d-o, .do-not {
